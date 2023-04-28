@@ -88,7 +88,7 @@ namespace LAb02
                                 string[] informacion2 = saveCadena.Split('"' + "budget" + '"' + ":");
                                 string[] informacion3 = informacion2[1].Split(',');
                                 var rdata = informacion3[0];
-                                //Console.WriteLine(rdata);
+                                //Console.WriteLine(rdata);                                
                                 dataf = Convert.ToInt32(rdata);
                                 ndata[r - 1] = dataf;
 
@@ -96,8 +96,8 @@ namespace LAb02
                                 {
                                     max = ndata[r - 1];
                                 }
-                            }
-                        }
+                            }                         
+                        }                     
                     }
                     Console.WriteLine("El mayor es: " + max);
 
@@ -135,7 +135,7 @@ namespace LAb02
                             if (informacion[1].Contains(Sdpi.ToString()))
                             {
                                 Random signature = new Random();
-                                for (int r = 0; r < 10; r++)
+                                for (int r = 0; r < 50; r++)
                                 {
                                     int n = signature.Next(0, 10);
                                     key += n.ToString();
