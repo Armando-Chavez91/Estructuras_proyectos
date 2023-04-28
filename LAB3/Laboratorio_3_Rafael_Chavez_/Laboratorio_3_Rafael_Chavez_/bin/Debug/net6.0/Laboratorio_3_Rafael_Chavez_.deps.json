@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Laboratorio_3_Rafael_Chavez_/1.0.0": {
+        "runtime": {
+          "Laboratorio_3_Rafael_Chavez_.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Laboratorio_3_Rafael_Chavez_/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
