@@ -11,8 +11,8 @@ namespace LAb02
     class Test
     {
 
-        private static string _path = @"D:\Universidad Rafael Landìvar\6to Ciclo 2023\Estructura de Datos I\LAb3\input_auctions_example_lab_3.json";
-        private static string _path2 = @"D:\Universidad Rafael Landìvar\6to Ciclo 2023\Estructura de Datos I\LAb3\input_customer_example_lab_3.json";
+        private static string _path = @"D:\Universidad Rafael Landìvar\6to Ciclo 2023\Estructura de Datos I\LAb3\input_auctions_example_lab_3.jsonl";
+        private static string _path2 = @"D:\Universidad Rafael Landìvar\6to Ciclo 2023\Estructura de Datos I\LAb3\input_customer_example_lab_3.jsonl";
 
         public static string GetUsuarios()
         {
@@ -49,7 +49,7 @@ namespace LAb02
             string[] arreglo2 = new string[1000];
             int conT = 0;
             int conP = 1;
-            Console.Title = "LAB 3 RAFAEL CHAVEZ";
+            Console.Title = "LAB 3 MÓNICA ORTÍZ";
 
             string[] informacion1 = { };
             string[] informacionP3 = { };
@@ -80,6 +80,38 @@ namespace LAb02
                             var u = (informacion[1]);
                             informacion1 = u.Split('{');
                             var comp1 = informacion1[1];
+
+                            for (int r = 1; r < informacion1.Length; r++)
+                            {
+                                saveCadena = informacion1[r].ToString();
+                                Cadena2[r] = saveCadena;
+                                string[] informacion2 = saveCadena.Split('"' + "budget" + '"' + ":");
+                                string[] informacion3 = informacion2[1].Split(',');
+                                var rdata = informacion3[0];
+                                //Console.WriteLine(rdata);
+                                dataf = Convert.ToInt32(rdata);
+                                ndata[r - 1] = dataf;
+
+                                if (ndata[r - 1] > max)
+                                {
+                                    max = ndata[r - 1];
+                                }
+                            }
+                        }
+                    }
+                    Console.WriteLine("El mayor es: " + max);
+
+                    for (int r = 1; r < informacion1.Length; r++)
+                    {
+                        if (informacion1[r].Contains(max.ToString()))
+                        {
+                            Console.WriteLine("El resultado fue: " + informacion1[r]);
+                            dpi = informacion1[r];
+                            string[] informacion4 = dpi.Split('"' + "dpi" + '"' + ":");
+                            gdpi = informacion4[1];
+                            string[] informacion5 = gdpi.Split(',');
+                            Sdpi = informacion5[0];
+                            Console.WriteLine("El DPI es: " + Sdpi);
                         }
                     }
                 }
@@ -120,4 +152,5 @@ namespace LAb02
                 }
             }
         }
-    } } 
+    }
+}
