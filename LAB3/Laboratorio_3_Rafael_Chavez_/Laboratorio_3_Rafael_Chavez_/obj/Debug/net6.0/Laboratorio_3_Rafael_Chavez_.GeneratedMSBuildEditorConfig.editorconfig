@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Laboratorio_3_Rafael_Chavez_
+build_property.ProjectDir = D:\Universidad Rafael Landìvar\OneDrive\Documentos\GitHub\Estructuras_proyectos\LAB3\Laboratorio_3_Rafael_Chavez_\Laboratorio_3_Rafael_Chavez_\
