@@ -49,7 +49,7 @@ namespace LAb02
             string[] arreglo2 = new string[1000];
             int conT = 0;
             int conP = 1;
-            Console.Title = "LAB 3 MÓNICA ORTÍZ";
+            Console.Title = "LAB 3 RAFAEL CHAVEZ";
 
             string[] informacion1 = { };
             string[] informacionP3 = { };
