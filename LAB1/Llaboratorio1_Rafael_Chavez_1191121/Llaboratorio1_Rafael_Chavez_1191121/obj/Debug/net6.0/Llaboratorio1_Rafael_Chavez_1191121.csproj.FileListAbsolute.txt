@@ -13,3 +13,5 @@ D:\Universidad Rafael Landìvar\OneDrive\Documentos\GitHub\Estructuras_proyectos
 D:\Universidad Rafael Landìvar\OneDrive\Documentos\GitHub\Estructuras_proyectos\LAB1\Llaboratorio1_Rafael_Chavez_1191121\Llaboratorio1_Rafael_Chavez_1191121\obj\Debug\net6.0\Llaboratorio1_Rafael_Chavez_1191121.pdb
 D:\Universidad Rafael Landìvar\OneDrive\Documentos\GitHub\Estructuras_proyectos\LAB1\Llaboratorio1_Rafael_Chavez_1191121\Llaboratorio1_Rafael_Chavez_1191121\obj\Debug\net6.0\Llaboratorio1_Rafael_Chavez_1191121.genruntimeconfig.cache
 D:\Universidad Rafael Landìvar\OneDrive\Documentos\GitHub\Estructuras_proyectos\LAB1\Llaboratorio1_Rafael_Chavez_1191121\Llaboratorio1_Rafael_Chavez_1191121\obj\Debug\net6.0\ref\Llaboratorio1_Rafael_Chavez_1191121.dll
+D:\Universidad Rafael Landìvar\OneDrive\Documentos\GitHub\Estructuras_proyectos\LAB1\Llaboratorio1_Rafael_Chavez_1191121\Llaboratorio1_Rafael_Chavez_1191121\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Universidad Rafael Landìvar\OneDrive\Documentos\GitHub\Estructuras_proyectos\LAB1\Llaboratorio1_Rafael_Chavez_1191121\Llaboratorio1_Rafael_Chavez_1191121\obj\Debug\net6.0\Llaboratorio1_Rafael_Chavez_1191121.csproj.CopyComplete
