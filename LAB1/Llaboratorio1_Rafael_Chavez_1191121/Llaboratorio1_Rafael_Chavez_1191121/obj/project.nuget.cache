@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tTbSa2WF3Jr6hEUI+cOO4yLa+LZQVoKN1RiRmmsGJl/Nzilr5Bs+iQRtl5/9NPrGbimNM0Md5/C++V7y0DwfEA==",
+  "dgSpecHash": "2dGTGJfcku1moMRn7CbL1yKnAC0pkrzBBVAlPIewtr44c+7Hf+hiR4xc67iM2SVs2QIRmKYNpMrg4LHmnfO6Iw==",
   "success": true,
   "projectFilePath": "D:\\Universidad Rafael Landìvar\\OneDrive\\Documentos\\GitHub\\Estructuras_proyectos\\LAB1\\Llaboratorio1_Rafael_Chavez_1191121\\Llaboratorio1_Rafael_Chavez_1191121\\Llaboratorio1_Rafael_Chavez_1191121.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rafae\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
