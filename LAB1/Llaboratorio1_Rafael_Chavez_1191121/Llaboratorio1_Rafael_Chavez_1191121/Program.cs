@@ -41,7 +41,7 @@ namespace InmueblesGT
             List<int> recommendations = new List<int>();
             List<int> distances = new List<int>();
 
-     for (int i = 0; i < map.Count; i++)
+            for (int i = 0; i < map.Count; i++)
             {
                 Dictionary<string, bool> apartment = map[i];
                 bool meetsRequirements = true;
@@ -62,7 +62,7 @@ namespace InmueblesGT
                 }
             }
 
-           distances.Sort();
+            distances.Sort();
             foreach (int distance in distances)
             {
                 recommendations.Add(distance);
